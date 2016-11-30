@@ -35,19 +35,21 @@ var config = {
   cnzz_tracker_id: '',
 
   // mongodb 配置
-  db: 'mongodb://127.0.0.1/node_club_dev',
-
+  db: 'mongodb://admin:a5fRJUsYpn@db2.daocloudinternal.io:60312/temp_db',
+//   admin:a5fRJUsYpn@db2.daocloudinternal.io:60312/temp_db
+	tcp://db2.daocloudinternal.io:60332
   // redis 配置，默认是本地
-  redis_host: '127.0.0.1',
-  redis_port: 6379,
+  redis_host: 'db2.daocloudinternal.io',
+//   tcp://db2.daocloudinternal.io:60332
+  redis_port:60332,
   redis_db: 0,
-  redis_password: '',
+  redis_password: '0TL2tP6wz',
 
   session_secret: 'node_club_secret', // 务必修改
   auth_cookie_name: 'node_club',
 
   // 程序运行的端口
-  port: 3000,
+  port: 3001,
 
   // 话题列表显示的话题数量
   list_topic_count: 20,
